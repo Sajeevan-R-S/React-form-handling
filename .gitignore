@@ -1,0 +1,36 @@
+# Ignore Node.js build artifacts
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore production build
+build/
+dist/
+
+# Ignore development server
+/.cache/
+/public/
+
+# Ignore environment variables file
+.env
+
+# Ignore log files
+*.log
+
+# Ignore editor-specific files
+.idea/
+.vscode/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Jest coverage reports
+/coverage/
+
+# Ignore compiled output for TypeScript
+*.js
+*.js.map
+
+# Ignore compiled output for TypeScript definitions
+*.d.ts
+*.d.ts.map
